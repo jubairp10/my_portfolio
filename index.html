@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JUBAIR P · Flutter Developer</title>
+  <meta name="description" content="Portfolio of JUBAIR P — Flutter Developer specializing in cross-platform apps, Firebase, Provider, BLoC, and API integrations." />
+  <meta name="theme-color" content="#0f172a" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- AOS (on-scroll animations) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Iconify for icons -->
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js" defer></script>
+  <!-- GSAP + ScrollTrigger for rich animations -->
+  <script src="https://unpkg.com/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="https://unpkg.com/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+  <!-- Lenis smooth scroll -->
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.45/bundled/lenis.min.js" defer></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
+  <!-- React (CDN) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <!-- Babel for in-browser JSX transform -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#top" class="logo">JP<span>.</span></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact" class="btn btn-primary">Contact</a>
+      </nav>
+      <button class="hamburger" aria-label="Open Menu" aria-controls="mobile-menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact" class="btn btn-primary">Contact</a>
+    </div>
+  </header>
+
+  <main id="root"></main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> JUBAIR P · Built with love and Flutter energy</p>
+      <a href="#top" class="to-top" aria-label="Back to top"><span class="iconify" data-icon="mdi:arrow-up"></span></a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <!-- React App (external JSX for fast loads, no installs) -->
+  <script type="text/babel" src="assets/js/app.jsx"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A modern, animated, responsive portfolio built with HTML/CSS/JS and animation libraries via CDNs (GSAP, ScrollTrigger, AOS, and Lenis). The site now renders content with **React 18** (loaded via CDN) using an inline JSX script (transpiled by Babel in the browser) inside `index.html`.",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -p 5173 .",
+    "dev": "serve -p 5173 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.5"
+  }
+}
